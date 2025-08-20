@@ -6,10 +6,4 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
-  <ItemGroup>
-    <Folder Include="Persistence\" />
-    <Folder Include="Profiles\" />
-    <Folder Include="Services\" />
-  </ItemGroup>
-
 </Project>
