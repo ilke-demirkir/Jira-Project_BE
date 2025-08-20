@@ -1,0 +1,11 @@
+/Users/ilkedemirkir/RiderProjects/Jira-Project/src/Domain/bin/Debug/net8.0/Domain.deps.json
+/Users/ilkedemirkir/RiderProjects/Jira-Project/src/Domain/bin/Debug/net8.0/Domain.dll
+/Users/ilkedemirkir/RiderProjects/Jira-Project/src/Domain/bin/Debug/net8.0/Domain.pdb
+/Users/ilkedemirkir/RiderProjects/Jira-Project/src/Domain/obj/Debug/net8.0/Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ilkedemirkir/RiderProjects/Jira-Project/src/Domain/obj/Debug/net8.0/Domain.AssemblyInfoInputs.cache
+/Users/ilkedemirkir/RiderProjects/Jira-Project/src/Domain/obj/Debug/net8.0/Domain.AssemblyInfo.cs
+/Users/ilkedemirkir/RiderProjects/Jira-Project/src/Domain/obj/Debug/net8.0/Domain.csproj.CoreCompileInputs.cache
+/Users/ilkedemirkir/RiderProjects/Jira-Project/src/Domain/obj/Debug/net8.0/Domain.dll
+/Users/ilkedemirkir/RiderProjects/Jira-Project/src/Domain/obj/Debug/net8.0/refint/Domain.dll
+/Users/ilkedemirkir/RiderProjects/Jira-Project/src/Domain/obj/Debug/net8.0/Domain.pdb
+/Users/ilkedemirkir/RiderProjects/Jira-Project/src/Domain/obj/Debug/net8.0/ref/Domain.dll
