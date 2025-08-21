@@ -27,3 +27,5 @@ C:\Users\yasin\Documents\GitHub\Jira-Project_BE\src\Infrastructure\obj\Debug\net
 C:\Users\yasin\Documents\GitHub\Jira-Project_BE\src\Infrastructure\obj\Debug\net8.0\refint\Infrastructure.dll
 C:\Users\yasin\Documents\GitHub\Jira-Project_BE\src\Infrastructure\obj\Debug\net8.0\Infrastructure.pdb
 C:\Users\yasin\Documents\GitHub\Jira-Project_BE\src\Infrastructure\obj\Debug\net8.0\ref\Infrastructure.dll
+C:\Users\yasin\Documents\GitHub\Jira-Project_BE\src\Infrastructure\bin\Debug\net8.0\Infrastructure.runtimeconfig.json
+C:\Users\yasin\Documents\GitHub\Jira-Project_BE\src\Infrastructure\obj\Debug\net8.0\Infrastructure.genruntimeconfig.cache

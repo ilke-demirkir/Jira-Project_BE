@@ -13,7 +13,6 @@ namespace Infrastructure.Persistence
         }
 
         // DbSet'ler
-        public DbSet<ApplicationUser> Users { get; set; }
         public DbSet<Project> Projects { get; set; }
         public DbSet<TaskItem> TaskItems { get; set; }
         public DbSet<Tenant> Tenant { get; set; }   

@@ -45,7 +45,11 @@ builder.Services.AddHttpContextAccessor();
 
 // DbContext (PostgreSQL)
 builder.Services.AddDbContext<AppDbContext>(options =>
-    options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));
+    options.UseNpgsql(
+        builder.Configuration.GetConnectionString("DefaultConnection"),
+        sqlOptions => sqlOptions.MigrationsAssembly("Infrastructure")
+    )
+);
 
 // Identity + EF Core
 builder.Services.AddIdentity<ApplicationUser, IdentityRole<Guid>>()
