@@ -18,6 +18,6 @@ namespace Domain.Entities
         public string Title { get; set; }
 
         // Many-to-many: Assigned users via TenantUser or a dedicated join entity
-        public ICollection<User> AssignedUsers { get; set; }
+        public ICollection<ApplicationUser> AssignedUsers { get; set; }
     }
 }

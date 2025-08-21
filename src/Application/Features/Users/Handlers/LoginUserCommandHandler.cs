@@ -8,10 +8,10 @@ namespace Application.Features.Users.Handlers
 {
     public class LoginUserCommandHandler : IRequestHandler<LoginUserCommand, string>
     {
-        private readonly UserManager<User> _userManager;
+        private readonly UserManager<ApplicationUser> _userManager;
         private readonly ITokenService _tokenService;
 
-        public LoginUserCommandHandler(UserManager<User> userManager, ITokenService tokenService)
+        public LoginUserCommandHandler(UserManager<ApplicationUser> userManager, ITokenService tokenService)
         {
             _userManager = userManager;
             _tokenService = tokenService;

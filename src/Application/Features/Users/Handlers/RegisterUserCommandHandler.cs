@@ -7,15 +7,15 @@ namespace Application.Features.Users.Handlers
 {
     public class RegisterUserCommandHandler : IRequestHandler<RegisterUserCommand, Guid>
     {
-        private readonly UserManager<User> _userManager;
+        private readonly UserManager<ApplicationUser> _userManager;
 
-        public RegisterUserCommandHandler(UserManager<User> userManager)
+        public RegisterUserCommandHandler(UserManager<ApplicationUser> userManager)
         {
             _userManager = userManager;
         }
         public async Task<Guid> Handle(RegisterUserCommand request, CancellationToken cancellationToken)
         {
-            var user = new User
+            var user = new ApplicationUser
             {
                 Id = Guid.NewGuid(),
                 Email = request.Email,

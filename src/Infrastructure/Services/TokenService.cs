@@ -17,7 +17,7 @@ namespace Infrastructure.Services
             _configuration = configuration;
         }
 
-        public string GenerateToken(User user)
+        public string GenerateToken(ApplicationUser user)
         {
             var claims = new[]
             {

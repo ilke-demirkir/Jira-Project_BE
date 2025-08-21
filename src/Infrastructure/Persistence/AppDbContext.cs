@@ -5,7 +5,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace Infrastructure.Persistence
 {
-    public class AppDbContext : IdentityDbContext<User, IdentityRole<Guid>, Guid>
+    public class AppDbContext : IdentityDbContext<ApplicationUser, IdentityRole<Guid>, Guid>
     {
         public AppDbContext(DbContextOptions<AppDbContext> options)
             : base(options)
@@ -13,7 +13,7 @@ namespace Infrastructure.Persistence
         }
 
         // DbSet'ler
-        public DbSet<User> Users { get; set; }
+        public DbSet<ApplicationUser> Users { get; set; }
 
         // OnModelCreating (fluent API, seed data vs.)
         protected override void OnModelCreating(ModelBuilder builder)
@@ -21,7 +21,7 @@ namespace Infrastructure.Persistence
             base.OnModelCreating(builder);
 
             // örn. User entity config
-            builder.Entity<User>(entity =>
+            builder.Entity<ApplicationUser>(entity =>
             {
                 entity.Property(u => u.Name).HasMaxLength(50).IsRequired();
                 entity.Property(u => u.Surname).HasMaxLength(50).IsRequired();

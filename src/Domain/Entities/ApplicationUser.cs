@@ -2,7 +2,7 @@ using Microsoft.AspNetCore.Identity;
 
 namespace Domain.Entities;
 
-public class User : IdentityUser<Guid>
+public class ApplicationUser : IdentityUser<Guid>
 {
     //username varmýþ identityde sildim burdan 
     public string Name { get; set; }
