@@ -1050,7 +1050,8 @@
     "net8.0": [
       "Domain >= 1.0.0",
       "MediatR >= 13.0.0",
-      "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 8.0.19"
+      "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 8.0.19",
+      "Microsoft.Extensions.Identity.Core >= 8.0.19"
     ]
   },
   "packageFolders": {
@@ -1112,6 +1113,10 @@
             "version": "[13.0.0, )"
           },
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+            "target": "Package",
+            "version": "[8.0.19, )"
+          },
+          "Microsoft.Extensions.Identity.Core": {
             "target": "Package",
             "version": "[8.0.19, )"
           }
