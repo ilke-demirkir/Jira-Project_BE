@@ -1,4 +1,5 @@
-﻿using Application.Features.Users.Commands;
+﻿using Application.DTOs;
+using Application.Features.Users.Commands;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
 
@@ -18,15 +19,15 @@ namespace API.Controllers
         [HttpPost("login")]
         public async Task<IActionResult> Login([FromBody] LoginUserCommand command)
         {
-            var token = await _mediator.Send(command);
-            return Ok(new { Token = token });
+            var response = await _mediator.Send(command);
+            return Ok(response); // LoginResponseDto döner
         }
 
         [HttpPost("register")]
         public async Task<IActionResult> Register([FromBody] RegisterUserCommand command)
         {
-            var userId = await _mediator.Send(command);
-            return Ok(new { UserId = userId });
+            var response = await _mediator.Send(command);
+            return Ok(response); // UserDto döner
         }
     }
 }

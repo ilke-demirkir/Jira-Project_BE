@@ -1,12 +1,13 @@
-﻿using Application.Features.Users.Commands;
+﻿using Application.DTOs;
+using Application.Features.Users.Commands;
+using Application.ServiceInterfaces;
 using Domain.Entities;
 using MediatR;
 using Microsoft.AspNetCore.Identity;
-using Application.ServiceInterfaces; // ITokenService burada olacak
 
 namespace Application.Features.Users.Handlers
 {
-    public class LoginUserCommandHandler : IRequestHandler<LoginUserCommand, string>
+    public class LoginUserCommandHandler : IRequestHandler<LoginUserCommand, LoginResponseDto>
     {
         private readonly UserManager<ApplicationUser> _userManager;
         private readonly ITokenService _tokenService;
@@ -17,7 +18,7 @@ namespace Application.Features.Users.Handlers
             _tokenService = tokenService;
         }
 
-        public async Task<string> Handle(LoginUserCommand request, CancellationToken cancellationToken)
+        public async Task<LoginResponseDto> Handle(LoginUserCommand request, CancellationToken cancellationToken)
         {
             var user = await _userManager.FindByEmailAsync(request.Email);
 
@@ -31,7 +32,17 @@ namespace Application.Features.Users.Handlers
 
             var token = _tokenService.GenerateToken(user);
 
-            return token;
+            return new LoginResponseDto
+            {
+                Token = token,
+                User = new UserDto
+                {
+                    Id = user.Id,
+                    Email = user.Email,
+                    Name = user.Name,
+                    Surname = user.Surname
+                }
+            };
         }
     }
 }

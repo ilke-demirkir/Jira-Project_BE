@@ -1,11 +1,12 @@
-﻿using Application.Features.Users.Commands;
+﻿using Application.DTOs;
+using Application.Features.Users.Commands;
 using Domain.Entities;
 using MediatR;
 using Microsoft.AspNetCore.Identity;
 
 namespace Application.Features.Users.Handlers
 {
-    public class RegisterUserCommandHandler : IRequestHandler<RegisterUserCommand, Guid>
+    public class RegisterUserCommandHandler : IRequestHandler<RegisterUserCommand, UserDto>
     {
         private readonly UserManager<ApplicationUser> _userManager;
 
@@ -13,7 +14,8 @@ namespace Application.Features.Users.Handlers
         {
             _userManager = userManager;
         }
-        public async Task<Guid> Handle(RegisterUserCommand request, CancellationToken cancellationToken)
+
+        public async Task<UserDto> Handle(RegisterUserCommand request, CancellationToken cancellationToken)
         {
             var user = new ApplicationUser
             {
@@ -29,7 +31,13 @@ namespace Application.Features.Users.Handlers
             if (!result.Succeeded)
                 throw new Exception(string.Join(", ", result.Errors.Select(e => e.Description)));
 
-            return user.Id; 
+            return new UserDto
+            {
+                Id = user.Id,
+                Email = user.Email,
+                Name = user.Name,
+                Surname = user.Surname
+            };
         }
     }
 }
