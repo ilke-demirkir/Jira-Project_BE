@@ -1,25 +1,31 @@
 {
   "format": 1,
   "restore": {
-    "/Users/ilkedemirkir/RiderProjects/Jira-Project/tests/UnitTests/UnitTests.csproj": {}
+    "C:\\Users\\yasin\\Documents\\GitHub\\Jira-Project_BE\\tests\\UnitTests\\UnitTests.csproj": {}
   },
   "projects": {
-    "/Users/ilkedemirkir/RiderProjects/Jira-Project/tests/UnitTests/UnitTests.csproj": {
+    "C:\\Users\\yasin\\Documents\\GitHub\\Jira-Project_BE\\tests\\UnitTests\\UnitTests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/ilkedemirkir/RiderProjects/Jira-Project/tests/UnitTests/UnitTests.csproj",
+        "projectUniqueName": "C:\\Users\\yasin\\Documents\\GitHub\\Jira-Project_BE\\tests\\UnitTests\\UnitTests.csproj",
         "projectName": "UnitTests",
-        "projectPath": "/Users/ilkedemirkir/RiderProjects/Jira-Project/tests/UnitTests/UnitTests.csproj",
-        "packagesPath": "/Users/ilkedemirkir/.nuget/packages/",
-        "outputPath": "/Users/ilkedemirkir/RiderProjects/Jira-Project/tests/UnitTests/obj/",
+        "projectPath": "C:\\Users\\yasin\\Documents\\GitHub\\Jira-Project_BE\\tests\\UnitTests\\UnitTests.csproj",
+        "packagesPath": "C:\\Users\\yasin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\yasin\\Documents\\GitHub\\Jira-Project_BE\\tests\\UnitTests\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/Users/ilkedemirkir/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\yasin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -32,7 +38,13 @@
           "warnAsError": [
             "NU1605"
           ]
-        }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net8.0": {
@@ -75,7 +87,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.117/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

@@ -1,8 +1,10 @@
+using Microsoft.AspNetCore.Identity;
+
 namespace Domain.Entities;
 
-public class User
+public class User : IdentityUser<Guid>
 {
-    Guid Id { get; set; }
-    public string Username { get; set; }
-    
+    //username varmýþ identityde sildim burdan 
+    public string Name { get; set; }
+    public string Surname { get; set; }
 }
