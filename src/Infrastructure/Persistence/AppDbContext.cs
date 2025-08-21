@@ -24,12 +24,28 @@ namespace Infrastructure.Persistence
         {
             base.OnModelCreating(builder);
 
-            // örn. User entity config
+            // User entity config
             builder.Entity<ApplicationUser>(entity =>
             {
                 entity.Property(u => u.Name).HasMaxLength(50).IsRequired();
                 entity.Property(u => u.Surname).HasMaxLength(50).IsRequired();
             });
+
+            // TenantUser composite key
+            builder.Entity<TenantUser>()
+                .HasKey(tu => new { tu.TenantId, tu.UserId });
+
+            // Tenant-TenantUser relationship
+            builder.Entity<TenantUser>()
+                .HasOne(tu => tu.Tenant)
+                .WithMany(t => t.Members)
+                .HasForeignKey(tu => tu.TenantId);
+
+            // ApplicationUser-TenantUser relationship
+            builder.Entity<TenantUser>()
+                .HasOne(tu => tu.User)
+                .WithMany()
+                .HasForeignKey(tu => tu.UserId);
         }
     }
 }
