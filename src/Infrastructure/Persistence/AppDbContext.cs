@@ -14,6 +14,10 @@ namespace Infrastructure.Persistence
 
         // DbSet'ler
         public DbSet<ApplicationUser> Users { get; set; }
+        public DbSet<Project> Projects { get; set; }
+        public DbSet<TaskItem> TaskItems { get; set; }
+        public DbSet<Tenant> Tenant { get; set; }   
+        public DbSet<TenantUser> tenantUsers { get; set; }
 
         // OnModelCreating (fluent API, seed data vs.)
         protected override void OnModelCreating(ModelBuilder builder)
