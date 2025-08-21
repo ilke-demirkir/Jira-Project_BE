@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Domain.Entities;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -6,7 +7,9 @@ using System.Threading.Tasks;
 
 namespace Application.ServiceInterfaces
 {
-    internal interface ITokenService
+    public interface ITokenService
     {
+        string GenerateToken(User user);
+
     }
 }

@@ -186,6 +186,9 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
+              "C:\\Users\\yasin\\Documents\\GitHub\\Jira-Project_BE\\src\\Application\\Application.csproj": {
+                "projectPath": "C:\\Users\\yasin\\Documents\\GitHub\\Jira-Project_BE\\src\\Application\\Application.csproj"
+              },
               "C:\\Users\\yasin\\Documents\\GitHub\\Jira-Project_BE\\src\\Domain\\Domain.csproj": {
                 "projectPath": "C:\\Users\\yasin\\Documents\\GitHub\\Jira-Project_BE\\src\\Domain\\Domain.csproj"
               }
@@ -207,6 +210,12 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[8.14.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
