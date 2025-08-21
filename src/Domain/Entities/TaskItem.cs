@@ -8,12 +8,16 @@ namespace Domain.Entities
 {
     public class TaskItem
     {
-        Guid Id { get; set; }
-        Guid TenantId { get; set; }
-        Tenant Tenant { get; set; } 
-        Guid ProjectId { get; set; }
-        Project Project { get; set; }
-        string Title { get; set; }
-        ICollection<User> AssignedUsers { get; set; }
+        public Guid Id { get; set; }
+        public Guid TenantId { get; set; }
+        public Tenant Tenant { get; set; } 
+
+        public Guid ProjectId { get; set; }
+        public Project Project { get; set; }
+
+        public string Title { get; set; }
+
+        // Many-to-many: Assigned users via TenantUser or a dedicated join entity
+        public ICollection<User> AssignedUsers { get; set; }
     }
 }

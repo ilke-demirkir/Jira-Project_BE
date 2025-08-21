@@ -8,13 +8,14 @@ namespace Domain.Entities
 {
     public class TenantUser
     {
-        Guid TenantId { get; set; }
-        Guid UserId { get; set; }
-        Tenant Tenant { get; set; }
-        User User { get; set; }
-        string Role { get; set; }
-        bool isActive { get; set; }
-        DateTime JoinedAt { get; set; }
+        public Guid TenantId { get; set; }
+        public Tenant Tenant { get; set; }
 
+        public Guid UserId { get; set; }
+        public User User { get; set; }
+
+        public string Role { get; set; }
+        public bool isActive { get; set; }
+        public DateTime JoinedAt { get; set; }
     }
 }
