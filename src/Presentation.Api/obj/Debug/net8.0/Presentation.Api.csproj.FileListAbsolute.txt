@@ -163,3 +163,4 @@ C:\Users\yasin\Documents\GitHub\Jira-Project_BE\src\Presentation.Api\obj\Debug\n
 C:\Users\yasin\Documents\GitHub\Jira-Project_BE\src\Presentation.Api\obj\Debug\net8.0\Presentation.Api.pdb
 C:\Users\yasin\Documents\GitHub\Jira-Project_BE\src\Presentation.Api\obj\Debug\net8.0\Presentation.Api.genruntimeconfig.cache
 C:\Users\yasin\Documents\GitHub\Jira-Project_BE\src\Presentation.Api\obj\Debug\net8.0\ref\Presentation.Api.dll
+C:\Users\yasin\Documents\GitHub\Jira-Project_BE\src\Presentation.Api\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

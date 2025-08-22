@@ -73,7 +73,7 @@
       "LoginUserCommand": {
         "type": "object",
         "properties": {
-          "email": {
+          "identifier": {
             "type": "string",
             "nullable": true
           },
@@ -87,19 +87,23 @@
       "RegisterUserCommand": {
         "type": "object",
         "properties": {
-          "email": {
-            "type": "string",
-            "nullable": true
-          },
-          "password": {
-            "type": "string",
-            "nullable": true
-          },
           "name": {
             "type": "string",
             "nullable": true
           },
           "surname": {
+            "type": "string",
+            "nullable": true
+          },
+          "userName": {
+            "type": "string",
+            "nullable": true
+          },
+          "email": {
+            "type": "string",
+            "nullable": true
+          },
+          "password": {
             "type": "string",
             "nullable": true
           }

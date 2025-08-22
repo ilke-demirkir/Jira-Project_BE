@@ -21,7 +21,7 @@ namespace Application.Features.Users.Handlers
             {
                 Id = Guid.NewGuid(),
                 Email = request.Email,
-                UserName = request.Email,
+                UserName = request.userName, // Use the provided userName
                 Name = request.Name,
                 Surname = request.Surname
             };
@@ -35,6 +35,7 @@ namespace Application.Features.Users.Handlers
             {
                 Id = user.Id,
                 Email = user.Email,
+                userName = user.UserName, // Return the actual username
                 Name = user.Name,
                 Surname = user.Surname
             };
