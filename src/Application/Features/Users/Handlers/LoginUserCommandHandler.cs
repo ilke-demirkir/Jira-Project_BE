@@ -26,16 +26,12 @@ public class LoginUserCommandHandler : IRequestHandler<LoginUserCommand, LoginRe
             user = await _userManager.FindByNameAsync(request.Identifier);
 
         if (user == null)
-            throw new UnauthorizedAccessException("Invalid credentials.");
-
-
-        if (user == null)
-            throw new UnauthorizedAccessException("Invalid credentials.");
+            throw new UnauthorizedAccessException("Email ya da kullanıcı adı yanlış.");
 
         var passwordValid = await _userManager.CheckPasswordAsync(user, request.Password);
 
         if (!passwordValid)
-            throw new UnauthorizedAccessException("Invalid credentials.");
+            throw new UnauthorizedAccessException("Yanlış Şifre.");
 
         var token = _tokenService.GenerateToken(user);
 

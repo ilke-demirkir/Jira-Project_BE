@@ -35,7 +35,7 @@ namespace Application.Features.Users.Handlers
             {
                 Id = user.Id,
                 Email = user.Email,
-                userName = user.UserName, // Return the actual username
+                userName = user.UserName, 
                 Name = user.Name,
                 Surname = user.Surname
             };
