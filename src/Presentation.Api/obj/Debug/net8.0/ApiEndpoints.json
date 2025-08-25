@@ -30,5 +30,53 @@
       }
     ],
     "ReturnTypes": []
+  },
+  {
+    "ContainingType": "InviteController",
+    "Method": "AcceptInvite",
+    "RelativePath": "api/Invite/accept",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Application.DTOs.AcceptInviteDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "InviteController",
+    "Method": "CreateInvite",
+    "RelativePath": "api/Invite/create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Application.DTOs.CreateInviteDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Presentation.Api.Controllers.TenantsController",
+    "Method": "CreateTenant",
+    "RelativePath": "api/Tenants",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "Application.Features.Tenants.Commands.CreateTenantCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
   }
 ]

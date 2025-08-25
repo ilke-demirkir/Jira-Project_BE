@@ -33,7 +33,7 @@ public class LoginUserCommandHandler : IRequestHandler<LoginUserCommand, LoginRe
         if (!passwordValid)
             throw new UnauthorizedAccessException("Yanlış Şifre.");
 
-        var token = _tokenService.GenerateToken(user);
+        var token = _tokenService.GenerateUserToken(user);
 
         var userDto = new UserDto
         {

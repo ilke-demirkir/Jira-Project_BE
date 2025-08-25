@@ -1,4 +1,5 @@
 using Application.Features.Users.Commands;
+using Application.Handlers;
 using Application.ServiceInterfaces;
 using Domain.Entities;
 using Infrastructure.Persistence;
@@ -58,9 +59,19 @@ builder.Services.AddIdentity<ApplicationUser, IdentityRole<Guid>>()
 
 // Infrastructure baðýmlýlýklarý
 builder.Services.AddScoped<ITokenService, TokenService>();
+builder.Services.AddScoped<IInviteService, InviteService>();
+
 
 // MediatR
 builder.Services.AddMediatR(cfg => cfg.RegisterServicesFromAssembly(typeof(LoginUserCommand).Assembly));
+
+builder.Services.AddMediatR(cfg =>
+{
+    cfg.RegisterServicesFromAssembly(typeof(LoginUserCommand).Assembly);
+    cfg.RegisterServicesFromAssembly(typeof(CreateInviteCommandHandler).Assembly);
+});
+
+
 
 var app = builder.Build();
 

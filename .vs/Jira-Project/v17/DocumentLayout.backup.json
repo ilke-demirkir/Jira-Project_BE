@@ -3,36 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\yasin\\Documents\\GitHub\\Jira-Project_BE\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5D69E0F5-67D1-42DD-BAB5-E90F3FBE15C8}|src\\Application\\Application.csproj|c:\\users\\yasin\\documents\\github\\jira-project_be\\src\\application\\features\\users\\handlers\\loginusercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5D69E0F5-67D1-42DD-BAB5-E90F3FBE15C8}|src\\Application\\Application.csproj|solutionrelative:src\\application\\features\\users\\handlers\\loginusercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{694BBF37-31AA-4E14-936D-442CE16DF9B9}|src\\Presentation.Api\\Presentation.Api.csproj|c:\\users\\yasin\\documents\\github\\jira-project_be\\src\\presentation.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{694BBF37-31AA-4E14-936D-442CE16DF9B9}|src\\Presentation.Api\\Presentation.Api.csproj|solutionrelative:src\\presentation.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5D69E0F5-67D1-42DD-BAB5-E90F3FBE15C8}|src\\Application\\Application.csproj|c:\\users\\yasin\\documents\\github\\jira-project_be\\src\\application\\features\\users\\commands\\registerusercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5D69E0F5-67D1-42DD-BAB5-E90F3FBE15C8}|src\\Application\\Application.csproj|solutionrelative:src\\application\\features\\users\\commands\\registerusercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5D69E0F5-67D1-42DD-BAB5-E90F3FBE15C8}|src\\Application\\Application.csproj|c:\\users\\yasin\\documents\\github\\jira-project_be\\src\\application\\features\\users\\commands\\loginusercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5D69E0F5-67D1-42DD-BAB5-E90F3FBE15C8}|src\\Application\\Application.csproj|solutionrelative:src\\application\\features\\users\\commands\\loginusercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B5F54971-9D2E-46F1-94FE-BDB78FA4B2AB}|src\\Domain\\Domain.csproj|c:\\users\\yasin\\documents\\github\\jira-project_be\\src\\domain\\entities\\tenantuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B5F54971-9D2E-46F1-94FE-BDB78FA4B2AB}|src\\Domain\\Domain.csproj|solutionrelative:src\\domain\\entities\\tenantuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5D69E0F5-67D1-42DD-BAB5-E90F3FBE15C8}|src\\Application\\Application.csproj|c:\\users\\yasin\\documents\\github\\jira-project_be\\src\\application\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5D69E0F5-67D1-42DD-BAB5-E90F3FBE15C8}|src\\Application\\Application.csproj|solutionrelative:src\\application\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{694BBF37-31AA-4E14-936D-442CE16DF9B9}|src\\Presentation.Api\\Presentation.Api.csproj|c:\\users\\yasin\\documents\\github\\jira-project_be\\src\\presentation.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{694BBF37-31AA-4E14-936D-442CE16DF9B9}|src\\Presentation.Api\\Presentation.Api.csproj|solutionrelative:src\\presentation.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5D69E0F5-67D1-42DD-BAB5-E90F3FBE15C8}|src\\Application\\Application.csproj|c:\\users\\yasin\\documents\\github\\jira-project_be\\src\\application\\features\\users\\handlers\\registerusercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5D69E0F5-67D1-42DD-BAB5-E90F3FBE15C8}|src\\Application\\Application.csproj|solutionrelative:src\\application\\features\\users\\handlers\\registerusercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5D69E0F5-67D1-42DD-BAB5-E90F3FBE15C8}|src\\Application\\Application.csproj|c:\\users\\yasin\\documents\\github\\jira-project_be\\src\\application\\dtos\\authdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5D69E0F5-67D1-42DD-BAB5-E90F3FBE15C8}|src\\Application\\Application.csproj|solutionrelative:src\\application\\dtos\\authdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{694BBF37-31AA-4E14-936D-442CE16DF9B9}|src\\Presentation.Api\\Presentation.Api.csproj|c:\\users\\yasin\\documents\\github\\jira-project_be\\src\\presentation.api\\controllers\\tenantscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{694BBF37-31AA-4E14-936D-442CE16DF9B9}|src\\Presentation.Api\\Presentation.Api.csproj|solutionrelative:src\\presentation.api\\controllers\\tenantscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 12,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Bookmark",
@@ -82,102 +58,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "TenantUser.cs",
-              "DocumentMoniker": "C:\\Users\\yasin\\Documents\\GitHub\\Jira-Project_BE\\src\\Domain\\Entities\\TenantUser.cs",
-              "RelativeDocumentMoniker": "src\\Domain\\Entities\\TenantUser.cs",
-              "ToolTip": "C:\\Users\\yasin\\Documents\\GitHub\\Jira-Project_BE\\src\\Domain\\Entities\\TenantUser.cs",
-              "RelativeToolTip": "src\\Domain\\Entities\\TenantUser.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-22T08:31:38.511Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "AuthController.cs",
-              "DocumentMoniker": "C:\\Users\\yasin\\Documents\\GitHub\\Jira-Project_BE\\src\\Presentation.Api\\Controllers\\AuthController.cs",
-              "RelativeDocumentMoniker": "src\\Presentation.Api\\Controllers\\AuthController.cs",
-              "ToolTip": "C:\\Users\\yasin\\Documents\\GitHub\\Jira-Project_BE\\src\\Presentation.Api\\Controllers\\AuthController.cs",
-              "RelativeToolTip": "src\\Presentation.Api\\Controllers\\AuthController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-22T06:55:54.727Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "RegisterUserCommandHandler.cs",
-              "DocumentMoniker": "C:\\Users\\yasin\\Documents\\GitHub\\Jira-Project_BE\\src\\Application\\Features\\Users\\Handlers\\RegisterUserCommandHandler.cs",
-              "RelativeDocumentMoniker": "src\\Application\\Features\\Users\\Handlers\\RegisterUserCommandHandler.cs",
-              "ToolTip": "C:\\Users\\yasin\\Documents\\GitHub\\Jira-Project_BE\\src\\Application\\Features\\Users\\Handlers\\RegisterUserCommandHandler.cs",
-              "RelativeToolTip": "src\\Application\\Features\\Users\\Handlers\\RegisterUserCommandHandler.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-22T06:55:35.146Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "LoginUserCommandHandler.cs",
-              "DocumentMoniker": "C:\\Users\\yasin\\Documents\\GitHub\\Jira-Project_BE\\src\\Application\\Features\\Users\\Handlers\\LoginUserCommandHandler.cs",
-              "RelativeDocumentMoniker": "src\\Application\\Features\\Users\\Handlers\\LoginUserCommandHandler.cs",
-              "ToolTip": "C:\\Users\\yasin\\Documents\\GitHub\\Jira-Project_BE\\src\\Application\\Features\\Users\\Handlers\\LoginUserCommandHandler.cs",
-              "RelativeToolTip": "src\\Application\\Features\\Users\\Handlers\\LoginUserCommandHandler.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADIAAAAKAAAAAAAAAA==",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\yasin\\Documents\\GitHub\\Jira-Project_BE\\src\\Presentation.Api\\Program.cs",
+              "RelativeDocumentMoniker": "src\\Presentation.Api\\Program.cs",
+              "ToolTip": "C:\\Users\\yasin\\Documents\\GitHub\\Jira-Project_BE\\src\\Presentation.Api\\Program.cs",
+              "RelativeToolTip": "src\\Presentation.Api\\Program.cs",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAwwFwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-22T06:54:17.531Z",
+              "WhenOpened": "2025-08-25T12:54:03.292Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "AuthDto.cs",
-              "DocumentMoniker": "C:\\Users\\yasin\\Documents\\GitHub\\Jira-Project_BE\\src\\Application\\DTOs\\AuthDto.cs",
-              "RelativeDocumentMoniker": "src\\Application\\DTOs\\AuthDto.cs",
-              "ToolTip": "C:\\Users\\yasin\\Documents\\GitHub\\Jira-Project_BE\\src\\Application\\DTOs\\AuthDto.cs",
-              "RelativeToolTip": "src\\Application\\DTOs\\AuthDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-22T06:54:39.245Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "UserDto.cs",
-              "DocumentMoniker": "C:\\Users\\yasin\\Documents\\GitHub\\Jira-Project_BE\\src\\Application\\DTOs\\UserDto.cs",
-              "RelativeDocumentMoniker": "src\\Application\\DTOs\\UserDto.cs",
-              "ToolTip": "C:\\Users\\yasin\\Documents\\GitHub\\Jira-Project_BE\\src\\Application\\DTOs\\UserDto.cs",
-              "RelativeToolTip": "src\\Application\\DTOs\\UserDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-22T06:54:37.198Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "RegisterUserCommand.cs",
-              "DocumentMoniker": "C:\\Users\\yasin\\Documents\\GitHub\\Jira-Project_BE\\src\\Application\\Features\\Users\\Commands\\RegisterUserCommand.cs",
-              "RelativeDocumentMoniker": "src\\Application\\Features\\Users\\Commands\\RegisterUserCommand.cs",
-              "ToolTip": "C:\\Users\\yasin\\Documents\\GitHub\\Jira-Project_BE\\src\\Application\\Features\\Users\\Commands\\RegisterUserCommand.cs",
-              "RelativeToolTip": "src\\Application\\Features\\Users\\Commands\\RegisterUserCommand.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAsAAAAAAAAAA==",
+              "Title": "TenantsController.cs",
+              "DocumentMoniker": "C:\\Users\\yasin\\Documents\\GitHub\\Jira-Project_BE\\src\\Presentation.Api\\Controllers\\TenantsController.cs",
+              "RelativeDocumentMoniker": "src\\Presentation.Api\\Controllers\\TenantsController.cs",
+              "ToolTip": "C:\\Users\\yasin\\Documents\\GitHub\\Jira-Project_BE\\src\\Presentation.Api\\Controllers\\TenantsController.cs",
+              "RelativeToolTip": "src\\Presentation.Api\\Controllers\\TenantsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAABFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-22T06:54:13.099Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "LoginUserCommand.cs",
-              "DocumentMoniker": "C:\\Users\\yasin\\Documents\\GitHub\\Jira-Project_BE\\src\\Application\\Features\\Users\\Commands\\LoginUserCommand.cs",
-              "RelativeDocumentMoniker": "src\\Application\\Features\\Users\\Commands\\LoginUserCommand.cs",
-              "ToolTip": "C:\\Users\\yasin\\Documents\\GitHub\\Jira-Project_BE\\src\\Application\\Features\\Users\\Commands\\LoginUserCommand.cs",
-              "RelativeToolTip": "src\\Application\\Features\\Users\\Commands\\LoginUserCommand.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-22T06:54:10.613Z",
+              "WhenOpened": "2025-08-25T12:53:21.529Z",
               "EditorCaption": ""
             }
           ]

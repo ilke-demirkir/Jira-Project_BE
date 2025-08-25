@@ -17,6 +17,7 @@ namespace Infrastructure.Persistence
         public DbSet<TaskItem> TaskItems { get; set; }
         public DbSet<Tenant> Tenant { get; set; }   
         public DbSet<TenantUser> tenantUsers { get; set; }
+        public DbSet<TenantToken> tenantTokens { get; set; }
 
         // OnModelCreating (fluent API, seed data vs.)
         protected override void OnModelCreating(ModelBuilder builder)
@@ -34,7 +35,7 @@ namespace Infrastructure.Persistence
             builder.Entity<TenantUser>()
                 .HasKey(tu => new { tu.TenantId, tu.UserId });
 
-            // Tenant-TenantUser relationship
+            // Tenant-TenantUser relationcship
             builder.Entity<TenantUser>()
                 .HasOne(tu => tu.Tenant)
                 .WithMany(t => t.Members)

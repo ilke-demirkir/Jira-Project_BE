@@ -1,6 +1,6 @@
 ﻿namespace Domain.Entities
 {
-    internal class TenantToken
+    public class TenantToken
     {
         public Guid Id { get; set; }
         public Guid TenantId { get; set; }

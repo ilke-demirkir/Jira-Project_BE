@@ -173,6 +173,26 @@ namespace Infrastructure.Migrations
                     b.ToTable("Tenant");
                 });
 
+            modelBuilder.Entity("Domain.Entities.TenantToken", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uuid");
+
+                    b.Property<string>("Link")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<Guid>("TenantId")
+                        .HasColumnType("uuid");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("TenantId");
+
+                    b.ToTable("tenantTokens");
+                });
+
             modelBuilder.Entity("Domain.Entities.TenantUser", b =>
                 {
                     b.Property<Guid>("TenantId")
@@ -374,6 +394,17 @@ namespace Infrastructure.Migrations
                         .IsRequired();
 
                     b.Navigation("Project");
+
+                    b.Navigation("Tenant");
+                });
+
+            modelBuilder.Entity("Domain.Entities.TenantToken", b =>
+                {
+                    b.HasOne("Domain.Entities.Tenant", "Tenant")
+                        .WithMany()
+                        .HasForeignKey("TenantId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
 
                     b.Navigation("Tenant");
                 });
