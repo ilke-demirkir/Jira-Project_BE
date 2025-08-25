@@ -17,7 +17,6 @@ namespace Presentation.Api.Controllers
         }
 
         [HttpPost]
-        [Authorize] // login olan user tenant açabilir ŞİMDİLİK BÖYLE
         public async Task<IActionResult> CreateTenant([FromBody] CreateTenantCommand command)
         {
             var tenantId = await _mediator.Send(command);

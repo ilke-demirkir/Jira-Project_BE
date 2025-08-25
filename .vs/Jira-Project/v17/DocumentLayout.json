@@ -3,12 +3,48 @@
   "WorkspaceRootPath": "C:\\Users\\yasin\\Documents\\GitHub\\Jira-Project_BE\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{5D69E0F5-67D1-42DD-BAB5-E90F3FBE15C8}|src\\Application\\Application.csproj|c:\\users\\yasin\\documents\\github\\jira-project_be\\src\\application\\features\\tenants\\handlers\\createtenantcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D69E0F5-67D1-42DD-BAB5-E90F3FBE15C8}|src\\Application\\Application.csproj|solutionrelative:src\\application\\features\\tenants\\handlers\\createtenantcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{694BBF37-31AA-4E14-936D-442CE16DF9B9}|src\\Presentation.Api\\Presentation.Api.csproj|c:\\users\\yasin\\documents\\github\\jira-project_be\\src\\presentation.api\\controllers\\tenantscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{694BBF37-31AA-4E14-936D-442CE16DF9B9}|src\\Presentation.Api\\Presentation.Api.csproj|solutionrelative:src\\presentation.api\\controllers\\tenantscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{694BBF37-31AA-4E14-936D-442CE16DF9B9}|src\\Presentation.Api\\Presentation.Api.csproj|c:\\users\\yasin\\documents\\github\\jira-project_be\\src\\presentation.api\\controllers\\invitecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{694BBF37-31AA-4E14-936D-442CE16DF9B9}|src\\Presentation.Api\\Presentation.Api.csproj|solutionrelative:src\\presentation.api\\controllers\\invitecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{5D69E0F5-67D1-42DD-BAB5-E90F3FBE15C8}|src\\Application\\Application.csproj|c:\\users\\yasin\\documents\\github\\jira-project_be\\src\\application\\features\\tenants\\commands\\createtenantcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5D69E0F5-67D1-42DD-BAB5-E90F3FBE15C8}|src\\Application\\Application.csproj|solutionrelative:src\\application\\features\\tenants\\commands\\createtenantcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5D69E0F5-67D1-42DD-BAB5-E90F3FBE15C8}|src\\Application\\Application.csproj|c:\\users\\yasin\\documents\\github\\jira-project_be\\src\\application\\features\\tenants\\handlers\\createtenantcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5D69E0F5-67D1-42DD-BAB5-E90F3FBE15C8}|src\\Application\\Application.csproj|solutionrelative:src\\application\\features\\tenants\\handlers\\createtenantcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5D69E0F5-67D1-42DD-BAB5-E90F3FBE15C8}|src\\Application\\Application.csproj|c:\\users\\yasin\\documents\\github\\jira-project_be\\src\\application\\features\\users\\handlers\\registerusercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D69E0F5-67D1-42DD-BAB5-E90F3FBE15C8}|src\\Application\\Application.csproj|solutionrelative:src\\application\\features\\users\\handlers\\registerusercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{694BBF37-31AA-4E14-936D-442CE16DF9B9}|src\\Presentation.Api\\Presentation.Api.csproj|c:\\users\\yasin\\documents\\github\\jira-project_be\\src\\presentation.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{694BBF37-31AA-4E14-936D-442CE16DF9B9}|src\\Presentation.Api\\Presentation.Api.csproj|solutionrelative:src\\presentation.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{694BBF37-31AA-4E14-936D-442CE16DF9B9}|src\\Presentation.Api\\Presentation.Api.csproj|c:\\users\\yasin\\documents\\github\\jira-project_be\\src\\presentation.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{694BBF37-31AA-4E14-936D-442CE16DF9B9}|src\\Presentation.Api\\Presentation.Api.csproj|solutionrelative:src\\presentation.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E784518-8E84-4E33-B120-EB2E2C460446}|src\\Infrastructure\\Infrastructure.csproj|c:\\users\\yasin\\documents\\github\\jira-project_be\\src\\infrastructure\\persistence\\repositories\\tenantrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E784518-8E84-4E33-B120-EB2E2C460446}|src\\Infrastructure\\Infrastructure.csproj|solutionrelative:src\\infrastructure\\persistence\\repositories\\tenantrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5F54971-9D2E-46F1-94FE-BDB78FA4B2AB}|src\\Domain\\Domain.csproj|c:\\users\\yasin\\documents\\github\\jira-project_be\\src\\domain\\repointerfaces\\itenantrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5F54971-9D2E-46F1-94FE-BDB78FA4B2AB}|src\\Domain\\Domain.csproj|solutionrelative:src\\domain\\repointerfaces\\itenantrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E784518-8E84-4E33-B120-EB2E2C460446}|src\\Infrastructure\\Infrastructure.csproj|c:\\users\\yasin\\documents\\github\\jira-project_be\\src\\infrastructure\\infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{9E784518-8E84-4E33-B120-EB2E2C460446}|src\\Infrastructure\\Infrastructure.csproj|solutionrelative:src\\infrastructure\\infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D69E0F5-67D1-42DD-BAB5-E90F3FBE15C8}|src\\Application\\Application.csproj|c:\\users\\yasin\\documents\\github\\jira-project_be\\src\\application\\application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{5D69E0F5-67D1-42DD-BAB5-E90F3FBE15C8}|src\\Application\\Application.csproj|solutionrelative:src\\application\\application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5D69E0F5-67D1-42DD-BAB5-E90F3FBE15C8}|src\\Application\\Application.csproj|c:\\users\\yasin\\documents\\github\\jira-project_be\\src\\application\\features\\invites\\handlers\\acceptinvitecommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -23,28 +59,12 @@
       "RelativeMoniker": "D:0:0:{5D69E0F5-67D1-42DD-BAB5-E90F3FBE15C8}|src\\Application\\Application.csproj|solutionrelative:src\\application\\features\\users\\commands\\loginusercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{694BBF37-31AA-4E14-936D-442CE16DF9B9}|src\\Presentation.Api\\Presentation.Api.csproj|c:\\users\\yasin\\documents\\github\\jira-project_be\\src\\presentation.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{694BBF37-31AA-4E14-936D-442CE16DF9B9}|src\\Presentation.Api\\Presentation.Api.csproj|solutionrelative:src\\presentation.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5D69E0F5-67D1-42DD-BAB5-E90F3FBE15C8}|src\\Application\\Application.csproj|c:\\users\\yasin\\documents\\github\\jira-project_be\\src\\application\\features\\users\\handlers\\registerusercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5D69E0F5-67D1-42DD-BAB5-E90F3FBE15C8}|src\\Application\\Application.csproj|solutionrelative:src\\application\\features\\users\\handlers\\registerusercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{5D69E0F5-67D1-42DD-BAB5-E90F3FBE15C8}|src\\Application\\Application.csproj|c:\\users\\yasin\\documents\\github\\jira-project_be\\src\\application\\serviceinterfaces\\iappdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5D69E0F5-67D1-42DD-BAB5-E90F3FBE15C8}|src\\Application\\Application.csproj|solutionrelative:src\\application\\serviceinterfaces\\iappdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9E784518-8E84-4E33-B120-EB2E2C460446}|src\\Infrastructure\\Infrastructure.csproj|c:\\users\\yasin\\documents\\github\\jira-project_be\\src\\infrastructure\\persistence\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9E784518-8E84-4E33-B120-EB2E2C460446}|src\\Infrastructure\\Infrastructure.csproj|solutionrelative:src\\infrastructure\\persistence\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{694BBF37-31AA-4E14-936D-442CE16DF9B9}|src\\Presentation.Api\\Presentation.Api.csproj|c:\\users\\yasin\\documents\\github\\jira-project_be\\src\\presentation.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{694BBF37-31AA-4E14-936D-442CE16DF9B9}|src\\Presentation.Api\\Presentation.Api.csproj|solutionrelative:src\\presentation.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{694BBF37-31AA-4E14-936D-442CE16DF9B9}|src\\Presentation.Api\\Presentation.Api.csproj|c:\\users\\yasin\\documents\\github\\jira-project_be\\src\\presentation.api\\controllers\\tenantscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{694BBF37-31AA-4E14-936D-442CE16DF9B9}|src\\Presentation.Api\\Presentation.Api.csproj|solutionrelative:src\\presentation.api\\controllers\\tenantscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -54,7 +74,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 21,
           "Children": [
             {
               "$type": "Bookmark",
@@ -90,20 +110,85 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
+              "Title": "InviteController.cs",
+              "DocumentMoniker": "C:\\Users\\yasin\\Documents\\GitHub\\Jira-Project_BE\\src\\Presentation.Api\\Controllers\\InviteController.cs",
+              "RelativeDocumentMoniker": "src\\Presentation.Api\\Controllers\\InviteController.cs",
+              "ToolTip": "C:\\Users\\yasin\\Documents\\GitHub\\Jira-Project_BE\\src\\Presentation.Api\\Controllers\\InviteController.cs",
+              "RelativeToolTip": "src\\Presentation.Api\\Controllers\\InviteController.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-25T13:35:05.888Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "TenantRepository.cs",
+              "DocumentMoniker": "C:\\Users\\yasin\\Documents\\GitHub\\Jira-Project_BE\\src\\Infrastructure\\Persistence\\Repositories\\TenantRepository.cs",
+              "RelativeDocumentMoniker": "src\\Infrastructure\\Persistence\\Repositories\\TenantRepository.cs",
+              "ToolTip": "C:\\Users\\yasin\\Documents\\GitHub\\Jira-Project_BE\\src\\Infrastructure\\Persistence\\Repositories\\TenantRepository.cs",
+              "RelativeToolTip": "src\\Infrastructure\\Persistence\\Repositories\\TenantRepository.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwB0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-25T13:23:31.219Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ITenantRepository.cs",
+              "DocumentMoniker": "C:\\Users\\yasin\\Documents\\GitHub\\Jira-Project_BE\\src\\Domain\\RepoInterfaces\\ITenantRepository.cs",
+              "RelativeDocumentMoniker": "src\\Domain\\RepoInterfaces\\ITenantRepository.cs",
+              "ToolTip": "C:\\Users\\yasin\\Documents\\GitHub\\Jira-Project_BE\\src\\Domain\\RepoInterfaces\\ITenantRepository.cs",
+              "RelativeToolTip": "src\\Domain\\RepoInterfaces\\ITenantRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-25T13:23:08.397Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Infrastructure",
+              "DocumentMoniker": "C:\\Users\\yasin\\Documents\\GitHub\\Jira-Project_BE\\src\\Infrastructure\\Infrastructure.csproj",
+              "RelativeDocumentMoniker": "src\\Infrastructure\\Infrastructure.csproj",
+              "ToolTip": "C:\\Users\\yasin\\Documents\\GitHub\\Jira-Project_BE\\src\\Infrastructure\\Infrastructure.csproj",
+              "RelativeToolTip": "src\\Infrastructure\\Infrastructure.csproj",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-08-25T13:18:03.636Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Application",
+              "DocumentMoniker": "C:\\Users\\yasin\\Documents\\GitHub\\Jira-Project_BE\\src\\Application\\Application.csproj",
+              "RelativeDocumentMoniker": "src\\Application\\Application.csproj",
+              "ToolTip": "C:\\Users\\yasin\\Documents\\GitHub\\Jira-Project_BE\\src\\Application\\Application.csproj",
+              "RelativeToolTip": "src\\Application\\Application.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-08-25T13:18:00.261Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "CreateTenantCommand.cs",
               "DocumentMoniker": "C:\\Users\\yasin\\Documents\\GitHub\\Jira-Project_BE\\src\\Application\\Features\\Tenants\\Commands\\CreateTenantCommand.cs",
               "RelativeDocumentMoniker": "src\\Application\\Features\\Tenants\\Commands\\CreateTenantCommand.cs",
               "ToolTip": "C:\\Users\\yasin\\Documents\\GitHub\\Jira-Project_BE\\src\\Application\\Features\\Tenants\\Commands\\CreateTenantCommand.cs",
               "RelativeToolTip": "src\\Application\\Features\\Tenants\\Commands\\CreateTenantCommand.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwA4AAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-25T13:07:34.748Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 13,
               "Title": "LoginUserCommand.cs",
               "DocumentMoniker": "C:\\Users\\yasin\\Documents\\GitHub\\Jira-Project_BE\\src\\Application\\Features\\Users\\Commands\\LoginUserCommand.cs",
               "RelativeDocumentMoniker": "src\\Application\\Features\\Users\\Commands\\LoginUserCommand.cs",
@@ -122,14 +207,14 @@
               "RelativeDocumentMoniker": "src\\Presentation.Api\\Controllers\\AuthController.cs",
               "ToolTip": "C:\\Users\\yasin\\Documents\\GitHub\\Jira-Project_BE\\src\\Presentation.Api\\Controllers\\AuthController.cs",
               "RelativeToolTip": "src\\Presentation.Api\\Controllers\\AuthController.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAAwBkAAAAeAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABkAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-25T13:01:34.665Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 15,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "C:\\Users\\yasin\\Documents\\GitHub\\Jira-Project_BE\\src\\Infrastructure\\Persistence\\AppDbContext.cs",
               "RelativeDocumentMoniker": "src\\Infrastructure\\Persistence\\AppDbContext.cs",
@@ -142,7 +227,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 14,
               "Title": "IAppDbContext.cs",
               "DocumentMoniker": "C:\\Users\\yasin\\Documents\\GitHub\\Jira-Project_BE\\src\\Application\\ServiceInterfaces\\IAppDbContext.cs",
               "RelativeDocumentMoniker": "src\\Application\\ServiceInterfaces\\IAppDbContext.cs",
@@ -155,7 +240,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 12,
               "Title": "CreateInviteCommandHandler.cs",
               "DocumentMoniker": "C:\\Users\\yasin\\Documents\\GitHub\\Jira-Project_BE\\src\\Application\\Features\\Invites\\Handlers\\CreateInviteCommandHandler.cs",
               "RelativeDocumentMoniker": "src\\Application\\Features\\Invites\\Handlers\\CreateInviteCommandHandler.cs",
@@ -168,7 +253,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 11,
               "Title": "AcceptInviteCommandHandler.cs",
               "DocumentMoniker": "C:\\Users\\yasin\\Documents\\GitHub\\Jira-Project_BE\\src\\Application\\Features\\Invites\\Handlers\\AcceptInviteCommandHandler.cs",
               "RelativeDocumentMoniker": "src\\Application\\Features\\Invites\\Handlers\\AcceptInviteCommandHandler.cs",
@@ -181,52 +266,52 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 4,
               "Title": "RegisterUserCommandHandler.cs",
               "DocumentMoniker": "C:\\Users\\yasin\\Documents\\GitHub\\Jira-Project_BE\\src\\Application\\Features\\Users\\Handlers\\RegisterUserCommandHandler.cs",
               "RelativeDocumentMoniker": "src\\Application\\Features\\Users\\Handlers\\RegisterUserCommandHandler.cs",
               "ToolTip": "C:\\Users\\yasin\\Documents\\GitHub\\Jira-Project_BE\\src\\Application\\Features\\Users\\Handlers\\RegisterUserCommandHandler.cs",
               "RelativeToolTip": "src\\Application\\Features\\Users\\Handlers\\RegisterUserCommandHandler.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAnAAAAAAAAAA==",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwA4AAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-25T12:55:29.36Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "CreateTenantCommandHandler.cs",
               "DocumentMoniker": "C:\\Users\\yasin\\Documents\\GitHub\\Jira-Project_BE\\src\\Application\\Features\\Tenants\\Handlers\\CreateTenantCommandHandler.cs",
               "RelativeDocumentMoniker": "src\\Application\\Features\\Tenants\\Handlers\\CreateTenantCommandHandler.cs",
               "ToolTip": "C:\\Users\\yasin\\Documents\\GitHub\\Jira-Project_BE\\src\\Application\\Features\\Tenants\\Handlers\\CreateTenantCommandHandler.cs",
               "RelativeToolTip": "src\\Application\\Features\\Tenants\\Handlers\\CreateTenantCommandHandler.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAwwCQAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-25T12:55:08.709Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 6,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\yasin\\Documents\\GitHub\\Jira-Project_BE\\src\\Presentation.Api\\Program.cs",
               "RelativeDocumentMoniker": "src\\Presentation.Api\\Program.cs",
               "ToolTip": "C:\\Users\\yasin\\Documents\\GitHub\\Jira-Project_BE\\src\\Presentation.Api\\Program.cs",
               "RelativeToolTip": "src\\Presentation.Api\\Program.cs",
-              "ViewState": "AgIAACwAAAAAAAAAAAAwwFIAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAwwEEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-25T12:54:03.292Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 1,
               "Title": "TenantsController.cs",
               "DocumentMoniker": "C:\\Users\\yasin\\Documents\\GitHub\\Jira-Project_BE\\src\\Presentation.Api\\Controllers\\TenantsController.cs",
               "RelativeDocumentMoniker": "src\\Presentation.Api\\Controllers\\TenantsController.cs",
               "ToolTip": "C:\\Users\\yasin\\Documents\\GitHub\\Jira-Project_BE\\src\\Presentation.Api\\Controllers\\TenantsController.cs",
               "RelativeToolTip": "src\\Presentation.Api\\Controllers\\TenantsController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAABFAAAAAAAAAA==",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAwwBcAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-25T12:53:21.529Z",
               "EditorCaption": ""

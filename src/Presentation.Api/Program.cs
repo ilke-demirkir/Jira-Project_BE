@@ -2,7 +2,9 @@ using Application.Features.Users.Commands;
 using Application.Handlers;
 using Application.ServiceInterfaces;
 using Domain.Entities;
+using Domain.RepoInterfaces;
 using Infrastructure.Persistence;
+using Infrastructure.Persistence.Repositories;
 using Infrastructure.Services;
 using MediatR;
 using Microsoft.AspNetCore.Identity;
@@ -60,6 +62,7 @@ builder.Services.AddIdentity<ApplicationUser, IdentityRole<Guid>>()
 // Infrastructure baðýmlýlýklarý
 builder.Services.AddScoped<ITokenService, TokenService>();
 builder.Services.AddScoped<IInviteService, InviteService>();
+builder.Services.AddScoped<ITenantRepository, TenantRepository>();
 
 
 // MediatR
