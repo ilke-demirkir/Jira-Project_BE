@@ -17,7 +17,7 @@ namespace Infrastructure.Services
             _configuration = configuration;
         }
 
-        public string GenerateToken(ApplicationUser user)
+        public string GenerateUserToken(ApplicationUser user)
         {
             var claims = new[]
             {
@@ -27,6 +27,23 @@ namespace Infrastructure.Services
                 new Claim("surname", user.Surname)
             };
 
+            return BuildToken(claims, TimeSpan.FromHours(1)); // user token 1 saatlik
+        }
+
+        public string GenerateTenantToken(Tenant tenant)
+        {
+            var claims = new[]
+            {
+                new Claim("tenantId", tenant.Id.ToString()),
+                new Claim("tenantName", tenant.Name)
+            };
+
+            return BuildToken(claims, TimeSpan.FromDays(1)); // tenant tokeni 24 saat geçerli.
+        }
+        
+        //tekrara düşmesin kodlar diye burdan çıkarıyoz
+        private string BuildToken(IEnumerable<Claim> claims, TimeSpan lifetime)
+        {
             var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_configuration["Jwt:Key"]));
             var creds = new SigningCredentials(key, SecurityAlgorithms.HmacSha256);
 
@@ -34,7 +51,7 @@ namespace Infrastructure.Services
                 issuer: _configuration["Jwt:Issuer"],
                 audience: _configuration["Jwt:Audience"],
                 claims: claims,
-                expires: DateTime.UtcNow.AddHours(1),
+                expires: DateTime.UtcNow.Add(lifetime),
                 signingCredentials: creds
             );
 

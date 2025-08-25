@@ -9,7 +9,7 @@ namespace Application.ServiceInterfaces
 {
     public interface ITokenService
     {
-        string GenerateToken(ApplicationUser user);
-
+     string GenerateTenantToken(Tenant tenant);
+     string GenerateUserToken(ApplicationUser user); 
     }
 }
